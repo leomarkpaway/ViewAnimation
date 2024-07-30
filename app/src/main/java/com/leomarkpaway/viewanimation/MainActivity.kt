@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val upwardFadeButton = findViewById<Button>(R.id.btn_upward)
+        val upwardFadeButton = findViewById<Button>(R.id.btn_upward_fade)
         val helloWord = findViewById<TextView>(R.id.tv_hello_world)
 
         upwardFadeButton.setOnClickListener { startAnimation(helloWord, R.anim.upward_fade) }
